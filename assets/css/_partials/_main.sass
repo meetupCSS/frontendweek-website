@@ -1,7 +1,7 @@
 .main
   align-items: center
-  background-size: cover
-  background: linear-gradient($background-filtre, $background-filtre), url('../img/sp_background.jpg') no-repeat center center
+  //background-size: cover
+  //background: linear-gradient($background-filtre, $background-filtre), url('../img/sao-paulo.jpg') no-repeat center center
   display: flex
   height: 100vh
   justify-content: center
@@ -16,7 +16,6 @@
   @media (max-width: 900px)
     max-width: unset
     width: 100%
-
 
 .main__text
   max-width: 70%
@@ -91,3 +90,30 @@
 
   &:hover
     background-color: $hover-orange
+
+.main_text_credits_photography
+  align-items: center
+  bottom: 0.3em
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  position: absolute
+  text-align: center
+
+.main_text_credits_photography-title
+  color: $white
+  font-size: 1.1em
+  font-weight: 500
+  opacity: 0.4
+  text-decoration: none
+  transition: opacity .1s ease-in-out
+  
+  &:hover
+    opacity: .6
+
+  
+
+
+
+
+  
