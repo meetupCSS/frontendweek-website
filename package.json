@@ -22,5 +22,8 @@
     "imagemin-optipng": "^5.2.1",
     "imagemin-svgo": "^6.0.0"
   },
-  "sasslintConfig": ".sass-lint.yml"
+  "sasslintConfig": ".sass-lint.yml",
+  "dependencies": {
+    "sass": "^1.8.0"
+  }
 }
